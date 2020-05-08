@@ -1,0 +1,25 @@
+{
+  "name": "@guillotinaweb/grange-schematic",
+  "version": "1.0.0",
+  "description": "Grange schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "schematics",
+    "guillotina",
+    "grange"
+  ],
+  "author": {
+    "name": "Eric Brehault",
+    "email": "ebrehault@gmail.com"
+  },
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^9.1.4",
+    "@angular-devkit/schematics": "^9.1.4",
+    "@schematics/angular": "^9.1.4",
+    "typescript": "~3.8.2"
+  }
+}
