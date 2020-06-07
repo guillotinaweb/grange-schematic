@@ -1,3 +1,11 @@
-@import "../node_modules/@guillotinaweb/pastanaga-angular/lib/styles/common-reset";
-$font-path: "../node_modules/@guillotinaweb/pastanaga-angular/lib/assets/fonts";
-@import "../node_modules/@guillotinaweb/pastanaga-angular/lib/styles/fonts";
+@import "~@guillotinaweb/pastanaga-angular/lib/styles/common-reset";
+$font-path: "~@guillotinaweb/pastanaga-angular/lib/assets/fonts";
+@import "~@guillotinaweb/pastanaga-angular/lib/styles/fonts";
+
+html, body {
+    overflow: auto;
+}
+
+body {
+    margin: 8px;
+}

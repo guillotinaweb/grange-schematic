@@ -49,8 +49,8 @@ export function grangeSchematic(_options: any): Rule {
             ]
         };
         project.architect!.build.options.styles = [
-            ...project.architect!.build.options.styles,
             'src/pastanaga.scss',
+            ...project.architect!.build.options.styles,
         ];
         angular.projects[angular.defaultProject] = project;
         tree.overwrite('angular.json', JSON.stringify(angular, null, 2));
