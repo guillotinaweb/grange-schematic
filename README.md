@@ -6,9 +6,14 @@ It installs all the needed NPM dependencies, updates `angular.json`, and adds ex
 
 ### Usage
 
-Go in an existing Angular project.
+Go in an existing Angular project or create a new one:
+
+```bash
+ng new my-app
+```
 
 Then run the schematic:
+
 ```bash
 npm install @guillotinaweb/grange-schematic
 ng add @guillotinaweb/grange-schematic
@@ -24,7 +29,7 @@ Note: it requires Docker.
 npm run guillotina
 ```
 
-The first time we do it, we have to create a container for our app (named `myapp` in this example):
+To create a new container for an app (named `myapp` in this example):
 ```bash
 curl -XPOST --user root:root http://127.0.0.1:8081/db -d '{
   "@type": "Container",
