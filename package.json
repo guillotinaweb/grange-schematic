@@ -1,6 +1,6 @@
 {
   "name": "@guillotinaweb/grange-schematic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Grange schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json"
